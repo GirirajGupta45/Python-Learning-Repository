@@ -289,26 +289,39 @@ Displays documentation for functions or objects.
 
 ---
 
-# 📌 Quick Summary
+---------------DATA TYPES--------------------
+# Integer (`int`) in Python
 
-| Concept   | Purpose           |
-| --------- | ----------------- |
-| `print()` | Display output    |
-| `f""`     | Formatted strings |
-| `type()`  | Check datatype    |
-| `id()`    | Memory identity   |
-| `input()` | Take user input   |
-| `len()`   | Length of object  |
-| `range()` | Generate sequence |
+The `int` datatype is used to store whole numbers without decimal values.
+Integers can be positive, negative, or zero.
+Python supports very large integer values and provides multiple arithmetic operations on them.
 
 ---
 
-# 🎯 Key Takeaway
+# 📌 Integer Operators
 
-Python emphasizes:
+| Operator | Description         |
+| -------- | ------------------- |
+| `+`      | Addition            |
+| `-`      | Subtraction         |
+| `*`      | Multiplication      |
+| `/`      | Division            |
+| `//`     | Floor Division      |
+| `%`      | Modulus (Remainder) |
+| `**`     | Power / Exponent    |
+| `+=`     | Add and Assign      |
+| `-=`     | Subtract and Assign |
+| `*=`     | Multiply and Assign |
 
-* readability
-* simplicity
-* minimal syntax
+---
 
-Understanding these basics builds the foundation for advanced concepts like OOP, decorators, frameworks, and automation.
+# 📌 Important Notes
+
+* `/` always returns a float value.
+* `//` returns only the integer part.
+* Integers are immutable in Python.
+* Commonly used in loops, indexing, counting, and calculations.
+
+
+
+
