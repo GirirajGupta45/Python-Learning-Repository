@@ -323,5 +323,49 @@ Python supports very large integer values and provides multiple arithmetic opera
 * Commonly used in loops, indexing, counting, and calculations.
 
 
+# String (`str`) in Python
+
+The `str` datatype is used to store textual data in Python.
+Strings are created using single quotes, double quotes, or triple quotes.
+A string is an ordered and immutable sequence of characters.
+
+---
+
+# 📌 String Operators
+
+| Operator | Description                      |
+| -------- | -------------------------------- |
+| `+`      | Concatenation (Join Strings)     |
+| `*`      | Repetition                       |
+| `in`     | Check Presence of Character/Word |
+| `not in` | Check Absence of Character/Word  |
+| `[]`     | Indexing                         |
+| `[:]`    | Slicing                          |
+
+---
+
+# 📌 Common String Functions
+
+| Function    | Purpose                     |
+| ----------- | --------------------------- |
+| `len()`     | Returns string length       |
+| `lower()`   | Converts to lowercase       |
+| `upper()`   | Converts to uppercase       |
+| `strip()`   | Removes extra spaces        |
+| `replace()` | Replaces substring          |
+| `split()`   | Splits string into list     |
+| `find()`    | Finds position of substring |
+
+---
+
+# 📌 Important Notes
+
+* Strings are immutable in Python.
+* Indexing starts from `0`.
+* Strings support both positive and negative indexing.
+* Frequently used in user input, file handling, APIs, and data processing.
+
+
+
 
 
