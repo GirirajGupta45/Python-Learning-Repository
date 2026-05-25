@@ -305,3 +305,108 @@ A `frozenset` is an immutable version of a set.
 - Dataset comparison
 - Search optimization
 - Filtering unique values
+
+# Set (`set`) in Python
+
+A set is an unordered and mutable collection used to store unique values.
+Sets automatically remove duplicate elements and are mainly used for fast membership testing and mathematical set operations.
+
+Because sets are unordered, indexing and slicing are not supported.
+
+---
+
+# 📌 Key Characteristics
+
+| Feature         | Description                                |
+| --------------- | ------------------------------------------ |
+| Unordered       | Elements do not maintain order             |
+| Mutable         | Elements can be modified                   |
+| Unique Elements | Duplicate values are automatically removed |
+| Unindexed       | Indexing and slicing are not supported     |
+| Fast Lookup     | Optimized for membership checking          |
+
+---
+
+# 📌 Why Sets are Used
+
+- Removing duplicates
+- Fast existence checking
+- Comparing collections
+- Performing mathematical set operations
+
+---
+
+# 📌 Set Operations
+
+| Operation            | Method                   | Operator | Purpose                                |
+| -------------------- | ------------------------ | -------- | -------------------------------------- |
+| Union                | `union()`                | `\|`     | Combines all unique elements           |
+| Intersection         | `intersection()`         | `&`      | Returns common elements                |
+| Difference           | `difference()`           | `-`      | Returns unique elements from first set |
+| Symmetric Difference | `symmetric_difference()` | `^`      | Returns non-common elements            |
+
+---
+
+# 📌 Membership Operations
+
+| Operation            | Operator | Purpose                          |
+| -------------------- | -------- | -------------------------------- |
+| Membership Check     | `in`     | Checks if element exists         |
+| Non-Membership Check | `not in` | Checks if element does not exist |
+
+---
+
+# 📌 Common Set Functions
+
+| Function    | Purpose                    |
+| ----------- | -------------------------- |
+| `add()`     | Adds element               |
+| `update()`  | Adds multiple elements     |
+| `remove()`  | Removes specific element   |
+| `discard()` | Removes element safely     |
+| `pop()`     | Removes random element     |
+| `clear()`   | Removes all elements       |
+| `copy()`    | Creates shallow copy       |
+| `len()`     | Returns number of elements |
+
+---
+
+# 📌 Frozen Set (`frozenset`)
+
+A `frozenset` is an immutable version of a set.
+
+### Characteristics
+
+- Cannot be modified
+- Supports set operations
+- Can be used as dictionary keys
+
+---
+
+# 📌 Set vs List
+
+| Set                | List              |
+| ------------------ | ----------------- |
+| Unordered          | Ordered           |
+| Unique values only | Allows duplicates |
+| No indexing        | Supports indexing |
+| Faster lookup      | Slower lookup     |
+
+---
+
+# 📌 Important Notes
+
+- Duplicate values are automatically removed.
+- Sets do not maintain insertion order.
+- Mutable objects cannot be stored inside sets.
+- Sets are highly optimized for search and comparison operations.
+
+---
+
+# 🎯 Common Real-World Usage
+
+- Removing duplicate records
+- Role and permission systems
+- Dataset comparison
+- Search optimization
+- Filtering unique values
