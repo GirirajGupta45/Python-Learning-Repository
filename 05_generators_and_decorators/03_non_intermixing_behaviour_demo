@@ -1,0 +1,28 @@
+def habit_generator():
+    habits = [
+        "Wake up early",
+        "Exercise regularly",
+        "Read a book",
+        "Practice coding"
+    ]
+
+    while True:
+        for habit in habits:
+            yield habit
+
+
+habits1 = habit_generator()
+habits2 = habit_generator()
+
+print("Habits 1:")
+print(next(habits1))
+print(next(habits1))
+print(next(habits1))
+
+print("\nHabits 2:")
+print(next(habits2))
+print(next(habits2))
+print(next(habits2))
+
+print("\nHabits 1 again:")
+print(next(habits1))
